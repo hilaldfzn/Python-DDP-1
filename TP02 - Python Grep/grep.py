@@ -1,7 +1,7 @@
 import sys
 import os
 
-def scan_file(root, target_directory, target_string, option=""):
+def scan_file(root, target_directory, target_string, option =""):
     try:
         old_target_directory = target_directory
         target_directory = os.path.join(os.getcwd(), target_directory)
